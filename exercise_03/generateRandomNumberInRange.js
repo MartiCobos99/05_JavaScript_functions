@@ -3,3 +3,9 @@
  * input: number (limit)
  * output: number
  */
+
+
+export function generateRandomNumberInRange(limit) {
+  const randomNumber = Math.random() * limit;
+  return Math.round(randomNumber);
+}

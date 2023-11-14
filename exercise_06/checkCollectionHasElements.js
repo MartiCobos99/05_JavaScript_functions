@@ -3,3 +3,7 @@
  * input: array (collection)
  * output: boolean
  */
+
+export function checkCollectionHasElements(collection) {
+  return Array.isArray(collection) && collection.length > 0;
+}
