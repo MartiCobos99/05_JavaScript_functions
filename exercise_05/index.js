@@ -5,5 +5,5 @@ const num2 = 25;
 const result = isAdditionGreaterThanFifty(num1, num2);
 
 console.log(
-  `Is the sum of ${num1} and ${num2} greater than or equal to 50? ${result}`
+  `Is the sum of ${num1} and ${num2} greater than or equal to 50? ${result}`,
 );

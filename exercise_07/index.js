@@ -9,5 +9,5 @@ const arrayValue = [1, 2, 3];
 const arrayType = "array";
 const resultArray = isTypeOf(arrayValue, arrayType);
 console.log(
-  `Is ${JSON.stringify(arrayValue)} of type ${arrayType}? ${resultArray}`
+  `Is ${JSON.stringify(arrayValue)} of type ${arrayType}? ${resultArray}`,
 );
