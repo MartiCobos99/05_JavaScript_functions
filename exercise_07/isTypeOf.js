@@ -6,6 +6,13 @@
  * input: boolean (type)
  * output: boolean
  */
+
+/**
+ *
+ * @param {string} value
+ * @param {string} type
+ * @returns string
+ */
 export function isTypeOf(value, type) {
   if (type === "array") {
     return Array.isArray(value);

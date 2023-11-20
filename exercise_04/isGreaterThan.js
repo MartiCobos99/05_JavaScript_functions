@@ -4,6 +4,13 @@
  * input: number (threshold)
  * output: boolean
  */
+
+/**
+ *
+ * @param {number} value
+ * @param {number} threshold
+ * @returns number
+ */
 export function isGreaterThan(value, threshold) {
   return value > threshold;
 }
