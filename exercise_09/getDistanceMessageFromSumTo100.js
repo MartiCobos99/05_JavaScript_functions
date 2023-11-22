@@ -40,8 +40,8 @@ const getDistanceMessageFromSumTo100 = function (value) {
     diference +
     " from number 100";
   if (randomNumber > 100) {
-    let diference = randomNumber - 100;
-    let message =
+    diference = randomNumber - 100;
+    message =
       "Sum with value" +
       randomNumber +
       " exceeds in" +

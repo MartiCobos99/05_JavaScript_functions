@@ -9,7 +9,7 @@
  * @param {array} collection
  * @returns boolean
  */
-export function checkCollectionHasElements(collection) {
+export default function checkCollectionHasElements(collection) {
   return (
     Array.isArray(collection) &&
     collection !== null &&
