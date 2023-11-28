@@ -9,8 +9,8 @@
  * @param {number} limit
  * @returns number
  */
-const  generateRandomNumberInRange = function(limit) {
+const generateRandomNumberInRange = function (limit) {
   const randomNumber = Math.random() * limit;
   return Math.round(randomNumber);
-}
- export default generateRandomNumberInRange;
+};
+export default generateRandomNumberInRange;
