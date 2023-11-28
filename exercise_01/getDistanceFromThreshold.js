@@ -11,7 +11,13 @@
  * @param {number} threshold
  * @returns number
  */
-function getDistanceFromThreshold(value, threshold) {
-  return Math.abs(value - threshold);
-}
+const getDistanceFromThreshold = function (value, threshold) {
+  if (value > threshold) {
+    return value - threshold;
+  }
+  if (threshold > value) {
+    return threshold - value;
+  }
+  return 0;
+};
 export default getDistanceFromThreshold;
