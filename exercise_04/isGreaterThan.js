@@ -11,6 +11,7 @@
  * @param {number} threshold
  * @returns number
  */
-export function isGreaterThan(value, threshold) {
+const isGreaterThan = function (value, threshold) {
   return value > threshold;
-}
+};
+export default isGreaterThan;
